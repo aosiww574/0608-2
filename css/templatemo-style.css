@@ -139,6 +139,7 @@ a:focus {
   height: 100vh;
   min-height: 375px;
   position: relative;
+  background-position: -350px center;
   
 }
 
@@ -638,7 +639,7 @@ footer a {
 
   100% {
     /* bottom: 300px; */
-    bottom: 5%;
+    bottom: 9%;
   }
 }
 

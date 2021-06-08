@@ -158,7 +158,11 @@
 
       return _offset;
     }
+    var windowHeight = window.innerHeight;
     var windowWidth = window.innerWidth;
+    // if(windowHeight){
+    //   document.getElementsByClassName('tm-intro-next')
+    // }
     if (windowWidth < 768) {
       function setParallaxPosition($doc, multiplier, $object) {
         // var offset = getOffSet();
