@@ -196,7 +196,8 @@ a:focus {
 .tm-intro-next {
   position: absolute;
   /* bottom: 100px; */
-  bottom: 300px;
+  /* bottom: 300px; */
+  bottom: 10%;
   left: 0;
   right: 0;
   animation: down1 .8s infinite alternate linear;
@@ -631,11 +632,13 @@ footer a {
 
 @keyframes down1 {
   0% {
-    bottom: 280px;
+    /* bottom: 280px; */
+    bottom: 10%;
   }
 
   100% {
-    bottom: 300px;
+    /* bottom: 300px; */
+    bottom: 5%;
   }
 }
 
