@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  font-family: 'Kanit', sans-serif;
 }
 
 .ab {
@@ -144,9 +145,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -156,8 +156,17 @@
   list-style: none;
   font-size: 20px;
   line-height: 30px;
-  padding: 10px 10px;
+  padding: 5px 10px;
   font-weight: 700;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 16px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.footer ul li:hover {
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 @-webkit-keyframes down {
