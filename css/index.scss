@@ -5,17 +5,6 @@
     font-family: 'Kanit', sans-serif;
 }
 
-// @font-face {
-//     font-family: th;
-//     src: url(../fonts/DBTT.TTF);
-// }
-
-// @font-face {
-//     font-family: th2;
-//     src: url(../fonts/DBTTB.TTF);
-// }
-
-
 .ab {
     position: absolute;
 }
@@ -224,6 +213,7 @@
 
         .part1 {
             flex-direction: column;
+            width: 90%;
 
             .left {
                 width: 100%;
@@ -237,10 +227,11 @@
                 width: 100%;
 
                 .text {
-                    width: 80%;
+                    width: 100%;
                     font-size: 1.2em;
+                    font-size: 1em;
                     line-height: 1.4;
-                    padding-left: 10%;
+                    padding-left: 0;
                     margin-top: 20px;
                     margin-bottom: 20px;
                 }
@@ -250,6 +241,10 @@
         .part2 {
             h2 {
                 font-size: 36px;
+            }
+
+            p {
+                font-size: 1em;
             }
         }
 

@@ -232,6 +232,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 90%;
   }
   .web .part1 .left {
     width: 100%;
@@ -243,15 +244,19 @@
     width: 100%;
   }
   .web .part1 .right .text {
-    width: 80%;
+    width: 100%;
     font-size: 1.2em;
+    font-size: 1em;
     line-height: 1.4;
-    padding-left: 10%;
+    padding-left: 0;
     margin-top: 20px;
     margin-bottom: 20px;
   }
   .web .part2 h2 {
     font-size: 36px;
+  }
+  .web .part2 p {
+    font-size: 1em;
   }
   .web .footer ul li {
     padding: 5px 10px;
