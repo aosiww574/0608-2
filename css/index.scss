@@ -148,13 +148,13 @@
         width: 80%;
         margin: 0 auto;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         flex-wrap: wrap;
 
         li {
             text-align: center;
             list-style: none;
-            font-size: 20px;
+            font-size: 14px;
             line-height: 30px;
             padding: 5px 10px;
             font-weight: 700;
@@ -166,7 +166,6 @@
 
             &:hover {
                 background-color: rgba($color: #fff, $alpha: .6);
-
             }
         }
     }

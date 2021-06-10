@@ -145,8 +145,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -154,7 +155,7 @@
 .footer ul li {
   text-align: center;
   list-style: none;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 30px;
   padding: 5px 10px;
   font-weight: 700;
